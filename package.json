@@ -1,0 +1,11 @@
+{
+  "name": "great-emvic-id-gate",
+  "version": "3.0.0",
+  "description": "Great Emvic School – student and teacher ID cards and QR gate attendance (server + web app, MongoDB Atlas database)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node tests/api-test.js" },
+  "dependencies": { "mongodb": "^6.10.0" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}
